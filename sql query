@@ -1,0 +1,7 @@
+1. select * from department inner join employee on department.id=employee.department_id;
+2. select * from employee where salary 13000 AND 20000;
+3. select * from employee where name='sagar' or name='rekha' or name='darshan';
+4. select * from employee where joining_date=''
+5. select * from employee where name like '%A';
+6. select department_id,count(*) from employee group by department_id;
+7. 
